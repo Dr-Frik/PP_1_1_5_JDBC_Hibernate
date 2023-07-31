@@ -82,7 +82,7 @@ public class UserDaoJDBCImpl implements UserDao {
         } catch (SQLException e) {
             System.out.println("LIST USERS ERROR " + e);
         }
-        return list; // коментарий
+        return list; // коментарий №2
     }
 
     public void cleanUsersTable() {
